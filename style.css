@@ -45,6 +45,45 @@ header {
 
 .container-2 {
     display: flex;
+    flex-direction: column;
+}
+
+.random {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 36px;
+    font-weight:bolder;
+    color: #1f2937; 
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    
+}
+
+.info-1, .info-2, .info-3, .info-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+}
+
+.info-1 button, .info-2 button, .info-3 button, .info-4 button {
+    padding: 0px;
+    border-width: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-1, .info-2, .info-3, .info-4 div {
+    text-align: center;
 }
 
 .container-3 {
